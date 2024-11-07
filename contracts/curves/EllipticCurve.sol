@@ -95,7 +95,7 @@ contract EllipticCurve {
     function zeroProj() public pure
         returns (uint x, uint y, uint z)
     {
-        return (0, 1, 0);
+        return (0, 0, 1);
     }
 
     /**
